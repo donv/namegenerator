@@ -4,7 +4,7 @@ import org.apache.struts.action.ActionForm;
 
 public class GenerateForm extends ActionForm {
 	String combinationName;
-	String uniqueness="none";
+	String uniqueness = "none";
 	int predictability = 10;
 	int tries = 50;
 	int count = 1;
@@ -17,8 +17,8 @@ public class GenerateForm extends ActionForm {
 		return combinationName;
 	}
 
-	public void setCombinationName(String combinationName) {
-		this.combinationName = combinationName;
+	public void setCombinationName(String newCombinationName) {
+		this.combinationName = newCombinationName;
 	}
 
 	/**
@@ -32,11 +32,11 @@ public class GenerateForm extends ActionForm {
 	/**
 	 * Sets the count
 	 * 
-	 * @param count
+	 * @param newCount
 	 *            The count to set
 	 */
-	public void setCount(int count) {
-		this.count = count;
+	public void setCount(int newCount) {
+		this.count = newCount;
 	}
 
 	/**
@@ -50,11 +50,11 @@ public class GenerateForm extends ActionForm {
 	/**
 	 * Sets the uniqueness
 	 * 
-	 * @param uniqueness
+	 * @param newUniqueness
 	 *            The uniqueness to set
 	 */
-	public void setUniqueness(String uniqueness) {
-		this.uniqueness = uniqueness;
+	public void setUniqueness(String newUniqueness) {
+		this.uniqueness = newUniqueness;
 	}
 
 	/**
