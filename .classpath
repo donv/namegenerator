@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="var" path="SERVERJDK_PLUGINDIR/jre/lib/rt.jar"
+        rootpath="src" sourcepath="SERVERJDK_PLUGINDIR/src.jar"/>
+    <classpathentry kind="src" path="source"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/j2ee.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/webcontainer.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/ivjejb35.jar"/>
+    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/websphere.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/application.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/datetime.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/session.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/struts.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/response.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/page.jar"/>
+    <classpathentry kind="lib" path="webApplication/WEB-INF/lib/request.jar"/>
+    <classpathentry kind="output" path="webApplication\WEB-INF\classes"/>
+</classpath>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "../../RJJK/webApplication/docbook/docbookx.dtd" >
+
+<book arch="" condition="" conformance="nmtokens" fpi="" id="idvalue0" label="" lang="" os="" remap="" revision="" revisionflag="changed" role="" security="" status="" userlevel="" vendor="" xreflabel="">
+  <title arch="" condition="" conformance="nmtokens" id="idvalue1" lang="" os="" pagenum="" remap="" revision="" revisionflag="changed" role="" security="" userlevel="" vendor="" xreflabel="">
+    <footnoteref arch="" condition="" conformance="nmtokens" id="idvalue2" label="" lang="" linkend="idvalue0" os="" remap="" revision="" revisionflag="changed" role="" security="" userlevel="" vendor="" xreflabel=""/>
+  </title>
+  
+  <subtitle arch="" condition="" conformance="nmtokens" id="idvalue3" lang="" os="" remap="" revision="" revisionflag="changed" role="" security="" userlevel="" vendor="" xreflabel="">
+    <footnoteref arch="" condition="" conformance="nmtokens" id="idvalue4" label="" lang="" linkend="idvalue0" os="" remap="" revision="" revisionflag="changed" role="" security="" userlevel="" vendor="" xreflabel=""/>
+  </subtitle>
+  
+  <titleabbrev arch="" condition="" conformance="nmtokens" id="idvalue5" lang="" os="" remap="" revision="" revisionflag="changed" role="" security="" userlevel="" vendor="" xreflabel="">
+    <footnoteref arch="" condition="" conformance="nmtokens" id="idvalue6" label="" lang="" linkend="idvalue0" os="" remap="" revision="" revisionflag="changed" role="" security="" userlevel="" vendor="" xreflabel=""/>
+  </titleabbrev>
+  
+  <chapter>
+  <title>Requirements for name generator</title>
+  <para>
+  
+  </para>
+  </chapter>
+</book>
