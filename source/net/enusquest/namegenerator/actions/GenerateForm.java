@@ -3,60 +3,84 @@ package net.enusquest.namegenerator.actions;
 import org.apache.struts.action.ActionForm;
 
 public class GenerateForm extends ActionForm {
-  String combinationName;
-  String uniqueness;
-  int count;
+	String combinationName;
+	String uniqueness="none";
+	int predictability = 10;
+	int tries = 50;
+	int count = 1;
 
-  /**
-   * Constructor for generateAction
-   */
-  public GenerateForm() {
-    super();
-  }
+	public GenerateForm() {
+		super();
+	}
 
-  /**
-   * Gets the combinationName
-   * @return Returns a String
-   */
-  public String getCombinationName() {
-    return combinationName;
-  }
-  /**
-   * Sets the combinationName
-   * @param combinationName The combinationName to set
-   */
-  public void setCombinationName(String combinationName) {
-    this.combinationName = combinationName;
-  }
+	public String getCombinationName() {
+		return combinationName;
+	}
 
-  /**
-   * Gets the count
-   * @return Returns a int
-   */
-  public int getCount() {
-    return count;
-  }
-  /**
-   * Sets the count
-   * @param count The count to set
-   */
-  public void setCount(int count) {
-    this.count = count;
-  }
+	public void setCombinationName(String combinationName) {
+		this.combinationName = combinationName;
+	}
 
-  /**
-   * Gets the uniqueness
-   * @return Returns a String
-   */
-  public String getUniqueness() {
-    return uniqueness;
-  }
-  /**
-   * Sets the uniqueness
-   * @param uniqueness The uniqueness to set
-   */
-  public void setUniqueness(String uniqueness) {
-    this.uniqueness = uniqueness;
-  }
+	/**
+	 * Gets the count
+	 * 
+	 * @return Returns a int
+	 */
+	public int getCount() {
+		return count;
+	}
+	/**
+	 * Sets the count
+	 * 
+	 * @param count
+	 *            The count to set
+	 */
+	public void setCount(int count) {
+		this.count = count;
+	}
 
+	/**
+	 * Gets the uniqueness
+	 * 
+	 * @return Returns a String
+	 */
+	public String getUniqueness() {
+		return uniqueness;
+	}
+	/**
+	 * Sets the uniqueness
+	 * 
+	 * @param uniqueness
+	 *            The uniqueness to set
+	 */
+	public void setUniqueness(String uniqueness) {
+		this.uniqueness = uniqueness;
+	}
+
+	/**
+	 * @return Returns the predictability.
+	 */
+	public int getPredictability() {
+		return predictability;
+	}
+	/**
+	 * @param predictability
+	 *            The predictability to set.
+	 */
+	public void setPredictability(int predictability) {
+		this.predictability = predictability;
+	}
+	/**
+	 * @return Returns the tries.
+	 */
+	public int getTries() {
+		return tries;
+	}
+	/**
+	 * @param tries
+	 *            The tries to set.
+	 */
+	public void setTries(int tries) {
+		this.tries = tries;
+	}
 }
